@@ -1,9 +1,25 @@
 package com.indiabix.abstract1;
 
-public class Example4 {
+class Bike
+{
+	final void accept()
+	{
+		System.out.println("Bike");
+	}
+}  
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+class Example4 extends Bike
+{  
+	void run()
+	{
+		System.out.println("running safely with 100kmph");
+	}
+
+	public static void main(String[] args) 
+	{
+		Example4 honda= new Example4();  
+		honda.run();
+		honda.accept();
 
 	}
 

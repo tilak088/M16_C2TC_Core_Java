@@ -1,9 +1,16 @@
 package com.indiabix.oops;
 
-public class car {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+public class Car 
+{
+    String name="audi";//variable
+	void print()//method
+	{
+		System.out.println("This is "+name);
+	}
+	public static void main(String[] args) 
+	{
+		Car obj1=new Car();
+		obj1.print();
 
 	}
 
